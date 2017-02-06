@@ -8,6 +8,7 @@ import TOS from './modules/TOS'
 import Privacy from './modules/Privacy'
 import Home from './modules/Home'
 
+import './public/assets/css/grid.scss'
 import './public/assets/css/app.scss'
 
 render((
