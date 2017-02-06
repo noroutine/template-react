@@ -1,0 +1,29 @@
+$base-font-size: 14px;
+$base-font-stack: Helvetica, sans-serif;
+
+$primary-color: #333;
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font: 100%, $base-font-stack;
+}
+
+nav {
+	a:before {
+		display: inline-block;
+		content: "·";
+		width: 10px;
+		text-align: center;
+	}
+
+	a:first-child:before {
+		display: none;
+	}
+}
+
+* {
+  box-sizing: border-box;
+}
